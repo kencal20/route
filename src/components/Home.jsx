@@ -27,6 +27,20 @@ class Home extends Component {
           Get Started
         </Button>
       </Link>
+      <Link to="/contacts">
+        <Button
+          style={{
+            background: "white",
+            width: "22%",
+            height: "50px",
+            margin: "20px",
+            borderRadius: "6px",
+            color: "blue",
+          }}
+        >
+          Contact Us
+        </Button>
+      </Link>
       </div>
     );
   }
