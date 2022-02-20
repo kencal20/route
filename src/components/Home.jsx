@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import {Button} from 'react-bootstrap';
 
 class Home extends Component {
   render() {
@@ -11,6 +13,20 @@ class Home extends Component {
           blanditiis obcaecati voluptas! Laborum odit possimus, recusandae
           libero inventore rem!
         </p>
+        <Link to="/signup">
+        <Button
+          style={{
+            background: "red",
+            width: "22%",
+            height: "50px",
+            margin: "20px",
+            borderRadius: "6px",
+            color: "white",
+          }}
+        >
+          Get Started
+        </Button>
+      </Link>
       </div>
     );
   }
