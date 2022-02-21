@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { Button } from "react-bootstrap";
-import { Form } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
+
 import "../Main_styles.css";
 
 const Signup = () => {
@@ -11,7 +11,11 @@ const Signup = () => {
         <Form>
           <div className="Username">
             <label>Username</label>
-            <input type="text" placeholder="username" required />
+            <input 
+            type="text" 
+            placeholder="username" 
+            required 
+            />
           </div>
           <div className="Password">
             <label>Password</label>
