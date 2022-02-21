@@ -31,12 +31,12 @@ class Home extends Component {
         <Link to="/contacts">
           <Button
             style={{
-              background: "white",
-              width: "22%",
+              background: "ash",
+              width: "10%",
               height: "50px",
               margin: "20px",
               borderRadius: "6px",
-              color: "blue",
+              color: "navy",
             }}
           >
             Contact Us
