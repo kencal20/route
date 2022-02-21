@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import {Button} from 'react-bootstrap';
+import { Button } from "react-bootstrap";
 
 class Home extends Component {
   render() {
@@ -14,33 +14,34 @@ class Home extends Component {
           libero inventore rem!
         </p>
         <Link to="/signup">
-        <Button
-          style={{
-            background: "red",
-            width: "22%",
-            height: "50px",
-            margin: "20px",
-            borderRadius: "6px",
-            color: "white",
-          }}
-        >
-          Get Started
-        </Button>
-      </Link>
-      <Link to="/contacts">
-        <Button
-          style={{
-            background: "white",
-            width: "22%",
-            height: "50px",
-            margin: "20px",
-            borderRadius: "6px",
-            color: "blue",
-          }}
-        >
-          Contact Us
-        </Button>
-      </Link>
+          <Button
+            style={{
+              background: "red",
+              width: "22%",
+              height: "50px",
+              margin: "20px",
+              borderRadius: "6px",
+              color: "white",
+            }}
+          >
+            Get Started
+          </Button>
+        </Link>
+
+        <Link to="/contacts">
+          <Button
+            style={{
+              background: "white",
+              width: "22%",
+              height: "50px",
+              margin: "20px",
+              borderRadius: "6px",
+              color: "blue",
+            }}
+          >
+            Contact Us
+          </Button>
+        </Link>
       </div>
     );
   }
